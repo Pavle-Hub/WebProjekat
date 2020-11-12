@@ -1,0 +1,189 @@
+
+@import url('https://fonts.googleapis.com/css?family=Allura|Josefin+Sans');
+
+*{
+  margin: 0pt;
+  padding: 0pt;
+  box-sizing: border-box;
+}
+
+body{
+  height: 100%;
+  font-family: 'Josefin Sans', sans-serif;
+  background-color: #41B3A3;
+}
+
+.wrapper{
+  margin-top: 50px;
+}
+
+.wrapper h1{
+  font-family: 'Allura', cursive;
+  font-size: 52px;
+  margin-bottom: 60px;
+  text-align: center;
+  color: #E27D60;
+}
+
+.team{
+  display: flex;
+  justify-content: center;
+  width: auto;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.team .team_member{
+  background:  #E8A97C;
+  margin: 5px;
+  margin-bottom: 50px;
+  width: 300px;
+  padding: 20px;
+  line-height: 20px;
+  color: #C38D9E;    
+  position: relative;
+}
+
+.unutar{
+  color: #C38D9E;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 16pt;
+  font-style: oblique;
+  justify-content: center;
+  width: auto;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.team .team_member h3{
+  color: #41B3A3;
+  font-size: 26px;
+  margin-top: 50px;
+}
+
+
+.team .team_member .team_img{
+  position: absolute;
+  top: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background:  #E8A97C;
+}
+
+.team .team_member .team_img img{
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+}
+.twfbinst{
+  padding: 10px;
+}
+.schedule{
+  margin-top: 50px;
+  text-align: center;
+}
+.schedule h1{
+  font-family: 'Allura', cursive;
+  font-size: 52px;
+  margin-bottom: 60px;
+  text-align: center;
+  color: #E27D60;
+}
+
+.day{
+  background:  #E8A97C;
+  width: 400px;
+  padding: 20px;
+  line-height: 20px;
+  color: #C38D9E;    
+  border-radius: 25%;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+.day h2{
+  color:  #41B3A3;
+  text-align:center;
+  font-style: oblique;
+}
+
+.day ul{
+  text-align:center;
+  font-style: oblique;
+  font-size: 13pt;
+  list-style-type: none;
+  padding: 10px;
+}
+.day li{
+  margin: 7px;
+}
+.about{
+  padding: 0px 25px 0px 20px;
+  border-radius: 15%;
+  color: #E8A97C;
+  margin: auto;
+  margin-bottom: 30px;
+  padding: 20px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 15pt;
+  font-style: oblique;
+  justify-content: center;
+}
+.about h3{
+  color:  #E8A97C;
+  text-align:center;
+  font-style: oblique;
+  font-size: 24pt;
+}
+
+.news{
+  margin-top: 50px;
+  text-align: center;
+}
+.news h1{
+  font-family: 'Allura', cursive;
+  font-size: 52px;
+  margin-bottom: 60px;
+  text-align: center;
+  color: #E27D60;
+}
+.new{
+  padding: 0px 25px 0px 20px;
+  color: #E8A97C;
+  margin: auto;
+  margin-bottom: 30px;
+  padding: 20px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 15pt;
+  font-style: oblique;
+  justify-content: center;
+}
+.news ul{
+  padding: 0px 25px 0px 20px; 
+  color: #E8A97C;
+  margin: auto;
+  margin-bottom: 30px;
+  padding: 20px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 20pt;
+  font-style: oblique;
+  justify-content: center;
+}
+table {
+	font-family : Helvetica;
+	font-size : 100%;
+  font-weight: bold;
+}
+ h1 {
+   color: #41B3A3;
+   font-family: Arial;
+ }
+ .signup{
+   background-color: #E27D60;
+   margin: 15% 0% 0% 30%;
+   width: 350px;
+   padding:20px;
+ }
